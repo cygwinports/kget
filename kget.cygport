@@ -6,3 +6,5 @@ RELEASE=1
 CATEGORY="Net"
 SUMMARY="KDE download manager"
 DESCRIPTION="Part of the KDE networking suite"
+
+REQUIRES="kde-runtime"
