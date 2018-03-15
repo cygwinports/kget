@@ -1,12 +1,10 @@
-inherit kde4
+inherit kf5
 
 NAME="kget"
-VERSION=17.08.3
+VERSION=17.12.3
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="KDE download manager"
 DESCRIPTION="Part of the KDE networking suite"
-
-REQUIRES="kde-runtime"
 
 CYGCMAKE_ARGS="-DLIBMMS_INCLUDE_DIR=NOTFOUND -DLIBMMS_LIBRARIES=NOTFOUND"
